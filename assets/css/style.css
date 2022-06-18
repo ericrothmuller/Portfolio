@@ -24,7 +24,7 @@ html, body {
     padding-bottom: 20px;
     padding-left: 20px;
 }
-
+/* sets the position and styling of the logo */
 .logo {
     font-size: 40px;
     font-weight: bolder;
@@ -33,6 +33,19 @@ html, body {
 
 .navitems {
     padding-right: 40px;
+}
+
+/* Styles the navigation's menu items */
+.navitems a {
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Changes the color of the navigation's menu items when hovered */
+.navitems a:hover {
+    color: gold;
 }
 
 /* The About Me Section Starts Here */
