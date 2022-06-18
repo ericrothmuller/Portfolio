@@ -6,3 +6,41 @@
     padding: 0;
     border: 0;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* The About Me Section Starts Here */
+
+#about {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    margin 0;
+}
+
+/* The My Work Section Starts Here */
+
+#work {
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+}
+
+/* The My Resume Section Starts Here */
+
+#resume {
+    height: 100vh;
+    width: 100vw;
+    background-color: purple;
+}
+
+/* The Get In Contact Section Starts Here */
+
+#contact {
+    height: 100vh;
+    width: 100vw;
+    background-color: orange;
+}
