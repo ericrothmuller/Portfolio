@@ -96,6 +96,7 @@ html, body {
 
 .featuredportfolioitem {
     display: flex;
+    flex: 1 0 200px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -103,19 +104,19 @@ html, body {
     padding: 20px;
 }
 
-#work .featuredportfolioitem img {
-    width: 20%;
-    border: 5px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 0px 0px 5px 5px;
-}
-
 #work .featuredportfolioitem figcaption {
-    width: 20%;
+    width: 20vw;
     text-align: center;
     color: #000000;
     background-color: #ffffff;
     border-radius: 5px 5px 0px 0px;
+}
+
+#work .featuredportfolioitem img {
+    width: 20vw;
+    border: 5px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
 }
 
 /* This Edits The Smaller Portfolio Items */
@@ -126,29 +127,30 @@ html, body {
 }
 
 #work .portfolioitem {
+    display: flex;
     flex: 1 0 200px;
-    text-align: center;
-    box-sizing: border-box;
-    width: min-content;
-    height: min-content;
     justify-content: center;
-    margin: 2%;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+
 }
 
 #work .portfolioitem figcaption {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+    width: 20vw;
+    text-align: center;
     color: #000000;
     background-color: #ffffff;
     border-radius: 5px 5px 0px 0px;
 }
 
 #work .portfolioitem img {
-    width: 100%;
+    width: 20vw;
     border: 5px solid #ffffff;
     box-sizing: border-box;
     border-radius: 0px 0px 5px 5px;
+
 }
 
 /* The My Resume Section Starts Here */
