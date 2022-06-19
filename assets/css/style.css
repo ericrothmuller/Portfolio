@@ -90,20 +90,40 @@ html, body {
     height: 100vh;
     width: 100vw;
     background-color: green;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-#work figcaption {
-    justify-content: center;
+/* This Edits The Large Featured Portfolio Item */
+
+.featuredportfolioitem {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#work .featuredportfolioitem img {
+    width: 20%;
+    border: 5px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#work .featuredportfolioitem figcaption {
+    width: 20%;
+    text-align: center;
     color: #000000;
     background-color: #ffffff;
     border-radius: 5px 5px 0px 0px;
 }
 
-#work .portfolioitemlarge {
+/* This Edits The Smaller Portfolio Items */
+
+#portitems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work .portfolioitem {
     flex: 1 0 200px;
     text-align: center;
     box-sizing: border-box;
@@ -113,7 +133,16 @@ html, body {
     margin: 2%;
 }
 
-#work img {
+#work .portfolioitem figcaption {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#work .portfolioitem img {
     width: 100%;
     border: 5px solid #ffffff;
     box-sizing: border-box;
