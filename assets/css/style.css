@@ -68,9 +68,16 @@ html, body {
     margin 0;
 }
 
-#about img {
-    border-radius: 0px;
+#about figure {
+    width: min-content;
+    background-color: #ffffff;
+    border-radius: 5px;
     border: 5px solid #ffffff;
+}
+
+#about figure p {
+    font-weight: bold;
+    text-align: center;
 }
 
 /* The My Work Section Starts Here */
