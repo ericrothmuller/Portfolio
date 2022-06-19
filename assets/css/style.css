@@ -119,6 +119,12 @@ html, body {
     border-radius: 0px 0px 5px 5px;
 }
 
+/* This Adds Hover Effect To The Large Portfolio Item */
+
+#work .featuredportfolioitem img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
 
 /* This Edits The Smaller Portfolio Items */
 
@@ -152,6 +158,13 @@ html, body {
     box-sizing: border-box;
     border-radius: 0px 0px 5px 5px;
 
+}
+
+/* This Adds Hover Effect To The Small Portfolio Items */
+
+#work .portfolioitem img:hover {
+    opacity: .8;
+    cursor: pointer;
 }
 
 /* The My Resume Section Starts Here */
