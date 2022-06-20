@@ -234,6 +234,7 @@ h2 {
 
 #contact p {
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 #contact a {
@@ -248,6 +249,10 @@ h2 {
 #contact ul li {
     list-style: none;
     padding-bottom: 10px;
+}
+
+#contact img {
+    border-radius: 5px;
 }
 
 /* The Footer Section Starts Here */
