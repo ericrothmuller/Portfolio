@@ -232,11 +232,6 @@ h2 {
     background-color: orange;
 }
 
-#contact p {
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
 #contact a {
     text-decoration: none;
     color: #000000;
@@ -248,14 +243,17 @@ h2 {
 
 #contact ul li {
     list-style: none;
-    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#contact ul {
+    padding-bottom: 25px;
 }
 
 #contact img {
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 50vw;
+    border-radius: 15px;
+    margin-top: 20px;
+    max-width: 48vw;
 }
 
 /* This creates the 2 column layout */
