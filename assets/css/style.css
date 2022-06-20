@@ -58,6 +58,7 @@ html, body {
 /* The Main Section Starts Here */
 
 h2 {
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
     padding: 25px;
