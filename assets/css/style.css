@@ -233,7 +233,7 @@ h2 {
 }
 
 #contact p {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     padding-top: 30px;
 }
 
@@ -253,6 +253,20 @@ h2 {
 
 #contact img {
     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 50vw;
+}
+
+/* This creates the 2 column layout */
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 50vw;
+    height: auto;
 }
 
 /* The Footer Section Starts Here */
