@@ -232,6 +232,24 @@ h2 {
     background-color: orange;
 }
 
+#contact p {
+    padding-bottom: 30px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#contact a:visited {
+    color: #000000;
+}
+
+#contact ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
 /* The Footer Section Starts Here */
 
 footer {
