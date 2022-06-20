@@ -173,7 +173,7 @@ h2 {
 
 /* This Adds Hover Effect To The Large Portfolio Item */
 
-#work .featuredportfolioitem img:hover {
+#work .featuredportfolioitem:hover {
     opacity: .8;
     cursor: pointer;
 }
@@ -213,7 +213,7 @@ h2 {
 
 /* This Adds Hover Effect To The Small Portfolio Items */
 
-#work .portfolioitem img:hover {
+#work .portfolioitem:hover {
     opacity: .8;
     cursor: pointer;
 }
