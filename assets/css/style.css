@@ -54,6 +54,14 @@ html, body {
     color: gold;
 }
 
+/* The Main Section Starts Here */
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
 /* The Hero Image Section Starts Here */
 
 #hero {
