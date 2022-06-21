@@ -69,9 +69,9 @@ h2 {
 
 /* Gives margin to the section containers that need it */
 .togivemargin {
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
 }
 
 /* The Back To Top Button Starts Here */
@@ -125,7 +125,7 @@ h2 {
 #hero #floatingherotext {
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
+    padding-right: 20%;
     z-index: 2;
     justify-content: center;
 }
@@ -301,6 +301,15 @@ footer {
 
 @media only screen and (max-width: 992px) {
 
+    /* This handles the responsive elements of the about us section */
+
+    #about figure {
+        width: 35vw;
+    }
+    #about figure img {
+        width: 35vw;
+    }
+
 /* This handles the responsive elements of the portfolio cards */
 
     #work .featuredportfolioitem figcaption {
@@ -337,12 +346,24 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+    /* This handles the responsive elements of the about us section */
+
+    #about figure {
+        float: none;
+        width: 80vw;
+    }
+    #about figure img {
+        width: 80vw;
+    }
+
+    /* This handles the responsive elements of the portfolio cards */
+
     #work .featuredportfolioitem figcaption {
         width: 85vw;
     }
     
     #work .featuredportfolioitem img {
-        width: 85w;
+        width: 85vw;
     }
 
     #work .portfolioitem figcaption {
