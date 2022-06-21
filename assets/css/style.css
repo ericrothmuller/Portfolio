@@ -38,6 +38,7 @@ html, body {
     font-size: 40px;
     font-weight: bolder;
     margin-right: auto;
+    padding-left: 20px;
 }
 
 .navitems {
@@ -220,7 +221,7 @@ h2 {
 }
 
 #work .portfolioitem figcaption {
-    width: 22vw;
+    width: 20vw;
     text-align: center;
     color: #000000;
     background-color: #ffffff;
@@ -231,7 +232,7 @@ h2 {
 }
 
 #work .portfolioitem img {
-    width: 22vw;
+    width: 20vw;
     border: 5px solid #ffffff;
     box-sizing: border-box;
     border-radius: 0px 0px 5px 5px;
@@ -300,6 +301,12 @@ footer {
 
 /* Screen Size Breaking Points */
 
+@media only screen and (max-width: 1150px) {
+    #work .portfolioitem figcaption {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (max-width: 992px) {
 
     /* This handles the responsive elements of the navigation bar */
@@ -343,6 +350,7 @@ footer {
 
     #work .portfolioitem figcaption {
         width: 40vw;
+        font-size: 22px;
     }
     
     #work .portfolioitem img {
