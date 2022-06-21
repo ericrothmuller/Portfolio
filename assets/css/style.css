@@ -301,6 +301,22 @@ footer {
 
 /* Screen Size Breaking Points */
 
+@media only screen and (max-width: 1300px) {
+        /* This handles the responsive elements of the hero image */
+
+    #hero {
+        background: url(../images/Eric-Hero-Image-1300.jpg);
+    }
+    
+    #hero #floatingherotext {
+        padding-right: 35%;
+    }
+    
+    #hero #floatingherotext p {
+        font-size: 50px;
+    }
+}
+
 @media only screen and (max-width: 1150px) {
     #work .portfolioitem figcaption {
         font-size: 18px;
@@ -342,6 +358,10 @@ footer {
     }
     #about figure img {
         width: 35vw;
+    }
+
+    #about .togivemargin ul {
+        padding-left: 20px;
     }
 
 /* This handles the responsive elements of the portfolio cards */
