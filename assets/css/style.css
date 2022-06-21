@@ -14,6 +14,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     border: 0px;
+    background-color: purple;
 }
 
 /* The Header and Navigation Section Starts Here */
@@ -112,9 +113,13 @@ h2 {
 #hero {
     height: 90vh;
     width: 100vw;
-    background-color: aqua;
     margin: 0px;
+    background: url(../images/Eric-Hero-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
+
 
 /* The About Me Section Starts Here */
 
@@ -160,7 +165,7 @@ h2 {
 }
 
 #work .featuredportfolioitem figcaption {
-    width: 25vw;
+    width: 60vw;
     text-align: center;
     color: #000000;
     background-color: #ffffff;
@@ -171,7 +176,7 @@ h2 {
 }
 
 #work .featuredportfolioitem img {
-    width: 25vw;
+    width: 60vw;
     border: 5px solid #ffffff;
     box-sizing: border-box;
     border-radius: 0px 0px 5px 5px;
@@ -195,7 +200,7 @@ h2 {
 }
 
 #work .portfolioitem figcaption {
-    width: 20vw;
+    width: 22vw;
     text-align: center;
     color: #000000;
     background-color: #ffffff;
@@ -206,7 +211,7 @@ h2 {
 }
 
 #work .portfolioitem img {
-    width: 20vw;
+    width: 22vw;
     border: 5px solid #ffffff;
     box-sizing: border-box;
     border-radius: 0px 0px 5px 5px;
