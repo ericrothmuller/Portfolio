@@ -423,13 +423,14 @@ footer {
         }
 
     /* This handles the responsive elements of the about us section */
-
+    
     #about figure {
         float: none;
-        width: 80vw;
+        width: 85vw;
+        margin: 0px 5px 10px 5px;
     }
     #about figure img {
-        width: 80vw;
+        width: 85vw;
     }
 
     /* This handles the responsive elements of the portfolio cards */
