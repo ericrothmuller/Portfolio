@@ -141,7 +141,7 @@ h2 {
 #about {
     min-height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-color: #01FFFF;
     margin: 0px;
 }
 
@@ -164,7 +164,11 @@ h2 {
 #work {
     min-height: 100vh;
     width: 100vw;
-    background-color: green;
+    background-color: #404040;
+}
+
+#work h2 {
+    color: #ffffff;
 }
 
 /* This Edits The Large Featured Portfolio Item */
@@ -249,7 +253,7 @@ h2 {
 #contact {
     min-height: 100vh;
     width: 100vw;
-    background-color: orange;
+    background-color: #EEEEEE;
 }
 
 #contact a {
@@ -290,7 +294,7 @@ h2 {
 /* The Footer Section Starts Here */
 
 footer {
-    background-color: bisque;
+    background-color: #CACECF;
 }
 
 /* Screen Size Breaking Points */
