@@ -111,6 +111,7 @@ h2 {
 /* The Hero Image Section Starts Here */
 
 #hero {
+    display: flex;
     height: 90vh;
     width: 100vw;
     margin: 0px;
@@ -118,6 +119,20 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    justify-content: center;
+}
+
+#hero #floatingherotext {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    z-index: 2;
+    justify-content: center;
+}
+
+#hero #floatingherotext p {
+    font-size: 65px;
+    line-height: 90px;
 }
 
 
