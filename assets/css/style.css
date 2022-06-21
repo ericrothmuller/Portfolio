@@ -46,6 +46,7 @@ html, body {
 
 /* Styles the navigation's menu items */
 .navitems a {
+    font-size: 28px;
     font-weight: 500;
     color: black;
     text-decoration: none;
@@ -301,6 +302,26 @@ footer {
 
 @media only screen and (max-width: 992px) {
 
+    /* This handles the responsive elements of the navigation bar */
+
+    .logoandnavigation {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo {
+        justify-content: center;
+        text-align: center;
+        padding: 5px 0px 10px 0px;
+        margin: 0;
+        font-size: 36px;
+    }
+
+    .navitems a {
+        font-size: 24px;
+    }
+
     /* This handles the responsive elements of the about us section */
 
     #about figure {
@@ -344,7 +365,28 @@ footer {
     }
 }
 
+
 @media only screen and (max-width: 768px) {
+
+        /* This handles the responsive elements of the navigation bar */
+
+        .logoandnavigation {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .logo {
+            justify-content: center;
+            text-align: center;
+            padding: 5px 0px 10px 0px;
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .navitems a {
+            font-size: 22px;
+        }
 
     /* This handles the responsive elements of the about us section */
 
