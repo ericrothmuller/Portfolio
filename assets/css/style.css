@@ -54,7 +54,7 @@ html, body {
 
 /* Changes the color of the navigation's menu items when hovered */
 .navitems a:hover {
-    color: gold;
+    color: #ffffff;
 }
 
 /* The Main Section Starts Here */
@@ -78,7 +78,7 @@ h2 {
 
 .topbutton {
     position: fixed;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -86,9 +86,9 @@ h2 {
 }
 
 .backtotop {
-    color: black;
-    background-color: gold;
-    border: 1px solid rgb(80, 69, 8);
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #111111;
     padding: 8px 10px;
     border-radius: 25px;
     font-weight: 600;
@@ -105,7 +105,7 @@ h2 {
 }
 
 .backtotop a:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 /* The Hero Image Section Starts Here */
