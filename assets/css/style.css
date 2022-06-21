@@ -329,6 +329,12 @@ footer {
         font-size: 24px;
     }
 
+    /* This removes the hero image from smaller devices */
+
+    #hero {
+        display: none;
+    }
+
     /* This handles the responsive elements of the about us section */
 
     #about figure {
